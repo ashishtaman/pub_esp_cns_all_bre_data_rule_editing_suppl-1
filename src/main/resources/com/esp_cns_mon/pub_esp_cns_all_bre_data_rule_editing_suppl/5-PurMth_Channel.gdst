@@ -53,12 +53,17 @@
           <parameters/>
         </condition-column52>
         <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>data_flat_bus_dim_01.data_flat_bus_dim_01__dim_levels__level_1 in</header>
           <constraintValueType>5</constraintValueType>
-          <factField>data_flat_bus_dim_01.data_flat_bus_dim_01__dim_levels__level_1</factField>
-          <operator>in</operator>
+          <factField></factField>
+          <operator>--- please choose ---</operator>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -112,12 +117,17 @@
           <parameters/>
         </condition-column52>
         <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>data_flat_bus_dim_01.data_flat_bus_dim_01__dim_levels__level_1 equals</header>
           <constraintValueType>5</constraintValueType>
-          <factField>data_flat_bus_dim_01.data_flat_bus_dim_01__dim_levels__level_1</factField>
-          <operator>==</operator>
+          <factField></factField>
+          <operator>--- please choose ---</operator>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -270,7 +280,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>data.data_flat_bus_dim_01__dim_levels__level_1 in 1278016898 , 1278016906 , 1278016907 , 1278016908 , 1278016909 , 1278016910 , 1278016911 , 1278016912 , 1278016913</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -480,7 +490,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>data.data_flat_bus_dim_01__dim_levels__level_1 in 1278016892 , 1278016893 , 1278016894 , 1278016896 , 1278016899 , 1278016902 , 1278016904 , 1278016905 , 1278016914 , 1278016915 , 1278016916 , 1278016918 , 1278016891 , 1278016895 , 1278016919 , 1278016920 , 1278016921 , 1278016922 , 1278016923</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -650,7 +660,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>data.data_flat_bus_dim_01__dim_levels__level_1 == 1278016902</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
