@@ -55,16 +55,6 @@
         <condition-column52>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>data_flat_bus_dim_01__dim_levels__level_1 in</header>
-          <constraintValueType>5</constraintValueType>
-          <factField>data_flat_bus_dim_01__dim_levels__level_1</factField>
-          <fieldType>BigDecimal</fieldType>
-          <operator>in</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
           <header>Outlet : data_outlet not in</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_outlet</factField>
@@ -254,11 +244,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric>1278005041</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
@@ -299,37 +284,32 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>1278016378 , 1278015249 , 1278014019 , 1278014240 , 1278014348 , 1278014720 , 1278015140 , 1278015142 , 1278015316 , 1278015325 , 1278015445 , 1278015460 , 1278015778 , 1278015894 , 1278015959 , 1278016256 , 1278016737 , 1278016787 , 1278014202 , 1278014670 , 1278014712 , 1278014620 , 1278014134 , 1278014949 , 1278016808 , 1278015122 , 1278014855 , 1278015176</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>data_flat_bus_dim_01__dim_levels__level_1 in 1278016898 , 1278016906 , 1278016907 , 1278016908 , 1278016909 , 1278016910 , 1278016911 , 1278016912 , 1278016913</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -360,11 +340,6 @@
       </value>
       <value>
         <valueString>execute_rule_8</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -435,11 +410,6 @@
       </value>
       <value>
         <valueString>execute_rule_8</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -534,11 +504,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>1278005041</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -585,11 +550,6 @@
       </value>
       <value>
         <valueString>execute_rule_8</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -694,11 +654,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>data.data_flat_bus_dim_01__dim_levels__level_1 == 1278016902</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -735,11 +690,6 @@
       </value>
       <value>
         <valueString>execute_rule_8</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
