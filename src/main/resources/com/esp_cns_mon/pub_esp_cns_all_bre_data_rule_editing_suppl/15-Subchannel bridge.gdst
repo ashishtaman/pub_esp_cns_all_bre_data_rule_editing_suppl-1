@@ -34,6 +34,18 @@
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+      <typedDefaultValue>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>lock-on-active</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
   </attributeCols>
   <conditionPatterns>
     <org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
@@ -45,7 +57,7 @@
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>data_flat_bus_dim_01__dim_levels__level_1 equals</header>
-          <constraintValueType>3</constraintValueType>
+          <constraintValueType>1</constraintValueType>
           <factField>data_flat_bus_dim_01__dim_levels__level_1</factField>
           <fieldType>java.math.BigDecimal</fieldType>
           <operator>==</operator>
@@ -61,7 +73,7 @@
       <boundName>data</boundName>
       <factField>data_npd_attr_98</factField>
       <type>java.math.BigDecimal</type>
-      <update>true</update>
+      <update>false</update>
     </org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
   </actionCols>
   <imports>
@@ -97,6 +109,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016908</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -126,6 +143,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -161,6 +183,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016892</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -190,6 +217,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -225,6 +257,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016902</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -254,6 +291,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -289,6 +331,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016906</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -318,6 +365,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -353,6 +405,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016912</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -382,6 +439,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -417,6 +479,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016921</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -446,6 +513,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -481,6 +553,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016914</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -510,6 +587,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -545,6 +627,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016919</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -574,6 +661,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -609,6 +701,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016899</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -638,6 +735,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -673,6 +775,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016920</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -702,6 +809,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -737,6 +849,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016911</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -766,6 +883,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -801,6 +923,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016922</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -830,6 +957,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -865,6 +997,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016894</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -894,6 +1031,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -929,6 +1071,11 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueNumeric class="big-decimal">1278016904</valueNumeric>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -958,6 +1105,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_17</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>

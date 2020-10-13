@@ -34,6 +34,18 @@
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+      <typedDefaultValue>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>lock-on-active</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
   </attributeCols>
   <conditionPatterns>
     <org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
@@ -44,8 +56,8 @@
         <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Data_ppmonth &gt;</header>
-          <constraintValueType>3</constraintValueType>
+          <header>data_ppmonth &gt;</header>
+          <constraintValueType>1</constraintValueType>
           <factField>data_ppmonth</factField>
           <fieldType>java.math.BigDecimal</fieldType>
           <operator>&gt;</operator>
@@ -102,6 +114,11 @@
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_19</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
